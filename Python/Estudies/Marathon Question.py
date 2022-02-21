@@ -27,7 +27,7 @@ def code(digito):
             x = 10
             while cont < 10:
                 analisador = listf[cont] * x
-                 cont += 1
+                cont += 1
                 x -= 1
                 analisadorf = analisadorf + analisador
 
