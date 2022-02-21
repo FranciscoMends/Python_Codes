@@ -112,6 +112,17 @@ num2 = random.randint(1,10) # número aleatório entre 0 e 10 (inteiro)
 print(num1)
 print(num2)
 #-----------------------------------------------------------------------------------
+#CADEIA DE TEXTOS
+frase = 'Ele é borracheiro' 
+#  E  L  E     É     B  O  R  R  A  C  H  E  I  R  O
+# 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16
+print(frase) # Ele é borracheiro 
+print(frase[6]) # b
+print(frase[:6]) # Ele é
+print(frase[6:17])   # borracheiro
+print(frase[6:17:1]) # b r a h i o
+print(frase[6:17:2]) # b  r  h  r 
+#-----------------------------------------------------------------------------------
 # CORES
 #Exemplo: \033[x;y;zm
 # x(esquerda) == style
